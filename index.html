@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Homepage</title>
+    <title>Connor Redfern</title>
     
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,29 +13,79 @@
   </head>
 
   <body>
-    <div class = "container-fluid bg-dark text-white">
+
+    <nav class="navbar navbar-expand bg-dark">
+      <ul class="navbar-nav">
+        <li class = "nav-item">
+          <a class = "nav-link" href="#Portfolio">Portfolio</a>
+        </li>
+        <li class = "nav-item">
+          <a  class = "nav-link" href="#About">About</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class = "container">
       <div class = "row">
-        <a href = "#Projecs" class = "col-*" >Projects</a>
-        <a href = "#About" class = "col-*">About</a>
-        <a href = "#Contact" class = "col-*" >Contact</a>
+        <h2 id = "Portfolio">Portfolio</h2>
+      </div>
+      <div class = "card-deck">
+
+        <div class = "card">
+          <div class = "card-header">
+            <h3>Hydra</h3>
+          </div>
+          <div class = "card-body">
+            <img class = "img-fluid" style = "width: 100%" src = "icons/hydra_black.svg">
+          </div>
+        </div>
+        
+        <div class = "card">
+          <div class = "card-header">
+            <h3>Consignment Tetris</h3>
+          </div>
+          <div class = "card-body">
+            <img class = "img-fluid" src = "icons/consignment_tetris.png">
+          </div>
+          <!-- https://www.youtube.com/watch?v=YJBlpAK8cyE -->
+        </div>
+
+        <div class = "card">
+          <div class = "card-header">
+            <h3>Euclidea</h3>
+          </div>
+          <div class = "card-body">
+            <img class = "img-fluid" src = "icons/euclidea_cube.png">
+          </div>
+        </div>
+
+
+        <div class = "card">
+          <div class = "card-header">
+            <h3>Ivy</h3>
+          </div>
+          <p class = "card-body" style = "font-size: 10.5vw; text-align: center" >&lambda;</p>
+        </div>
+
+      </div>
+      <div class = "row">
+        <h2 id = "About">About</h2>
+      </div>
+
+      <div class = "row">
+        <p>
+        Undergraduate student at the University of Cambridge. Interested in programming languages,
+        computational geometry & graphics.
+        </p>
+      </div>
+      <div class = "row">
+        <h2 id = "Contact">Contact</h2>
       </div>
     </div>
 
-    <div class = "container-fluid bg-dark text-white">
-
-      <h2>Projects</h2>
-      <div class = "projects">
-        <h3>Hydra</h3>
-        <h3>Euclidea</h3>
-        <h3></h3>
-      </div>
-      <h2>About</h2>
-      <div class = "about-info">
-      </div>
-      <h2>Contact</h2>
-      <div class = "contact-info">
-      </div>
-    </div>
   </body>
 
 </html>
